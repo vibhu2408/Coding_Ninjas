@@ -1,0 +1,17 @@
+/*Given an array of length N, you need to find and print the sum of all elements of the array.
+*/
+Sample Input
+3
+9 8 9
+
+Output
+26
+
+Code:
+
+n = int(input())
+li = [int(x) for x in input().split()]
+sum = 0
+for ele in li:
+    sum += ele
+print(sum)
